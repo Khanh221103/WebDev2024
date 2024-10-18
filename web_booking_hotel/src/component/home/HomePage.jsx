@@ -1,33 +1,29 @@
-
-
-const HomePage = () => {
-
+function HomePage(){
     return (
         <div className="home">
             {/* HEADER / BANNER ROOM SECTION */}
-            <section>
-                <header className="header-banner">
-                    <img src="./assets/images/hotel.webp" alt="Billards Hotel" className="header-image" />
-                    <div className="overlay"></div>
-                    <div className="overlay-content ">
-                        <h1>
-                            Welcome to <span className="phegon-color">Muong Thanh</span>
-                        </h1><br />
-                        <h3>Paradise Island</h3>
-                    </div>
-                </header>
+            <section className = "banner-section">
+                <img src="./assets/images/hotel.webp" alt="Muong Thanh Hotel"/>
+                <div className="overlay"></div>
+                <div className="overlay-content ">
+                    <h1>
+                        Welcome to <span className="phegon-color">Muong Thanh</span>
+                    </h1><br />
+                    <h2>Paradise Island</h2>
+                </div>
             </section>
 
             <h2 className="home-services">Services at <span className="phegon-color">Muong Thanh Hotel</span></h2>
 
             {/* SERVICES SECTION */}
-            <section className="service-section"><div className="service-card">
-                <img src="./assets/images/ac.png" alt="Air Conditioning" />
-                <div className="service-details">
-                    <h3 className="service-title">Air Conditioning</h3>
-                    <p className="service-description">Stay cool and comfortable throughout your stay with our individually controlled in-room air conditioning.</p>
+            <section className="service-section">
+                <div className="service-card">
+                    <img src="./assets/images/ac.png" alt="Air Conditioning" />
+                    <div className="service-details">
+                        <h3 className="service-title">Air Conditioning</h3>
+                        <p className="service-description">Stay cool and comfortable throughout your stay with our individually controlled in-room air conditioning.</p>
+                    </div>
                 </div>
-            </div>
                 <div className="service-card">
                     <img src="./assets/images/mini-bar.png" alt="Mini Bar" />
                     <div className="service-details">
